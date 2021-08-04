@@ -1,0 +1,7 @@
+git init // 최기화
+git config --global user.name "whiteDuck"  // 닉네임 만들기
+git config user.name  // 내 이름 정하기
+git config user.email  // 내 이메일 정하기
+git status  // 깃 상태보기
+git add -A  // 이곳의 모든 것을 추가한다
+git commit -m "First Commit" 지금작업들 묻는다(저장)
