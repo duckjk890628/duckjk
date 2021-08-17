@@ -4,4 +4,11 @@ git config user.name  // 내 이름 정하기
 git config user.email  // 내 이메일 정하기
 git status  // 깃 상태보기
 git add -A  // 이곳의 모든 것을 추가한다
-git commit -m "First Commit" 지금작업들 묻는다(저장)
+git commit -m "First Commit" //지금작업들 묻는다(저장)
+git revert 주소 // revert시킴
+:wq // 그대로 저장한다(새 커밋작성 뜰 경우)
+git branch // 현재 브랜치들 보여주기(계정들)
+git branch 아이디 // 새 브랜치 생성
+git checkout 아이디 // 해당 브랜치로 전환(아이디 전환)
+git merge 아이디 // 아이디의 것을 지금 아이디로 통합시키기
+git branch -D 아이디 // 다 쓴 브랜치 지우기
